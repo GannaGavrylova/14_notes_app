@@ -1,0 +1,10 @@
+.header_container {
+    background-color: #282c34;
+    padding: 20px;
+    text-align: center;
+}
+
+.header_title {
+    color: white;
+    font-size: 2em;
+}
