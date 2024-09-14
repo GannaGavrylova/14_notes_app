@@ -1,24 +1,32 @@
-.form_container {
+.modal_container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
-  width: 450px;
-  gap: 15px;
-  padding: 30px 10px;
-  /* border: 4px solid greenyellow; */
   justify-content: center;
   align-items: center;
+  background-color: rgba(192, 19, 19, 0.333);
 }
 
-.form_container > input,
-textarea {
+.body > form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  gap: 15px;
+}
+.body > form > input {
   padding: 5px;
+  border-radius: 6px;
   font-size: 22px;
-  border-radius: 5px;
-  width: 400px;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-.form_container > button {
+.body > form > button {
   text-align: center;
   font-size: 25px;
   padding: 15px 50px;

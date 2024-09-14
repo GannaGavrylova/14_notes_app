@@ -1,10 +1,11 @@
 .header_container {
-    background-color: #282c34;
-    padding: 20px;
-    text-align: center;
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .header_title {
-    color: white;
-    font-size: 2em;
+  color: white;
+  font-size: 2em;
 }
